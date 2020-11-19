@@ -58,7 +58,7 @@ void timer_bme280_event_handler(void* p_context);
 
 /** state variable **/
 static uint8_t current_mode = BME280_MODE_SLEEP;
-static uint8_t current_interval = BME280_STANDBY_1000_MS;
+static uint8_t current_interval = BME280_STANDBY_0_5_MS;
 
 BME280_Ret bme280_init()
 {
